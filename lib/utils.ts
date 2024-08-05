@@ -194,6 +194,7 @@ export const getTransactionStatus = (date: Date) => {
 
   return date > twoDaysAgo ? "Processing" : "Success";
 };
+
 export const authFormSchema = (type: string) =>
   z.object({
     // sign up
