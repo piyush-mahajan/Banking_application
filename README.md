@@ -1,36 +1,99 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MahaBanking - Financial SaaS Platform
 
-## Getting Started
+MahaBanking is a cutting-edge financial SaaS platform built with Next.js, designed to revolutionize personal banking and finance management. Connect multiple bank accounts, view real-time transactions, transfer money to other users, and take control of your finances all in one place.
 
-First, run the development server:
+## 🚀 Quick Start
+
+To get started with MahaBanking:
+
+1. Clone the repository
+2. Install dependencies: `npm install`
+3. Set up environment variables (see `.env.example`)
+4. Run the development server: `npm run dev`
+5. Open [http://localhost:3000](http://localhost:3000) in your browser
+
+## 🔋 Key Features
+
+- **🔐 Secure Authentication**: SSR authentication with robust validations and authorization
+- **🏦 Multi-Bank Integration**: Connect and manage multiple bank accounts via Plaid
+- **📊 Comprehensive Dashboard**: View total balance, recent transactions, and spending categories
+- **🏛️ Bank Management**: Access a complete list of connected banks with account details
+- **💳 Transaction History**: Paginated and filterable transaction logs for all connected banks
+- **⚡ Real-time Updates**: Instant reflection of new bank connections across the platform
+- **💸 Funds Transfer**: Send money to other users securely using Dwolla
+- **📱 Responsive Design**: Seamless experience across desktop, tablet, and mobile devices
+
+## ⚙️ Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Language**: [TypeScript](https://www.typescriptlang.org/)
+- **Backend**: [Appwrite](https://appwrite.io/)
+- **Banking Integration**: [Plaid](https://plaid.com/)
+- **Payment Processing**: [Dwolla](https://www.dwolla.com/)
+- **Form Handling**: [React Hook Form](https://react-hook-form.com/)
+- **Validation**: [Zod](https://github.com/colinhacks/zod)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **UI Components**: [ShadCN](https://ui.shadcn.com/)
+- **Data Visualization**: [Chart.js](https://www.chartjs.org/)
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/yourusername/mahabanking.git
+cd mahabanking
+npm install
+```
+
+## 🔧 Configuration
+
+1. Copy `.env.example` to `.env.local`
+2. Fill in the required environment variables:
+   - Appwrite credentials
+   - Plaid API keys
+   - Dwolla API keys
+
+## 🚀 Running the Application
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🧪 Testing
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```bash
+npm run test
+```
 
-## Learn More
+## 🏗️ Build
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run build
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🤝 Contributing
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+We welcome contributions! Please see our [CONTRIBUTING.md](CONTRIBUTING.md) for details on how to submit pull requests, report issues, and suggest improvements.
 
-## Deploy on Vercel
+## 🆘 Support
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+If you're getting started and need assistance or face any bugs, join our active Discord community with over **34k+** members. It's a place where people help each other out.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+[Join our Discord](https://discord.gg/mahabanking)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+## 🙏 Acknowledgements
+
+- [Next.js](https://nextjs.org/) for the amazing React framework
+- [Plaid](https://plaid.com/) for secure bank account integration
+- [Dwolla](https://www.dwolla.com/) for payment processing
+- [Appwrite](https://appwrite.io/) for backend services
+- All other open-source libraries and their contributors
+
+---
+
+Built with ❤️ by the Piyush Mahajan
